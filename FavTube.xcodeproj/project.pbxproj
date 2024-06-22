@@ -11,6 +11,7 @@
 		3D4F624C2C26D2BE008B6828 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4F624B2C26D2BE008B6828 /* ContentView.swift */; };
 		3D4F624E2C26D2C0008B6828 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D4F624D2C26D2C0008B6828 /* Assets.xcassets */; };
 		3D4F62512C26D2C0008B6828 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D4F62502C26D2C0008B6828 /* Preview Assets.xcassets */; };
+		3D4F62582C26DD2D008B6828 /* FavoriteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4F62572C26DD2D008B6828 /* FavoriteModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		3D4F624B2C26D2BE008B6828 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3D4F624D2C26D2C0008B6828 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D4F62502C26D2C0008B6828 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3D4F62572C26DD2D008B6828 /* FavoriteModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 			isa = PBXGroup;
 			children = (
 				3D4F62492C26D2BE008B6828 /* FavTubeApp.swift */,
+				3D4F62572C26DD2D008B6828 /* FavoriteModel.swift */,
 				3D4F624B2C26D2BE008B6828 /* ContentView.swift */,
 				3D4F624D2C26D2C0008B6828 /* Assets.xcassets */,
 				3D4F624F2C26D2C0008B6828 /* Preview Content */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D4F62582C26DD2D008B6828 /* FavoriteModel.swift in Sources */,
 				3D4F624C2C26D2BE008B6828 /* ContentView.swift in Sources */,
 				3D4F624A2C26D2BE008B6828 /* FavTubeApp.swift in Sources */,
 			);
