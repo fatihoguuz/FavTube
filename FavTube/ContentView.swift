@@ -9,16 +9,30 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint).padding()
-            Text("Hello, world!")
+        NavigationView{
+            List{
+                
+                ForEach(MyFavorites) {favorite in
+                    Section(header: Text(favorite.title)){
+                        ForEach(favorite.elements){ element in
+                            NavigationLink(destination: DetailsView(ChosenFavoriteElement: element)){
+                                Text(element.name)
+                            }
+                        }
+                    }
+                    
+                }
+            }.navigationTitle(Text("FavTube"))
         }
-        .padding()
+    }
+    
+}
+#if DEBUG
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
     }
 }
 
-#Preview {
-    ContentView()
-}
+
+#endif

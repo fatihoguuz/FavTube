@@ -12,6 +12,7 @@
 		3D4F624E2C26D2C0008B6828 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D4F624D2C26D2C0008B6828 /* Assets.xcassets */; };
 		3D4F62512C26D2C0008B6828 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D4F62502C26D2C0008B6828 /* Preview Assets.xcassets */; };
 		3D4F62582C26DD2D008B6828 /* FavoriteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4F62572C26DD2D008B6828 /* FavoriteModel.swift */; };
+		3D4F625C2C26EE84008B6828 /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4F625B2C26EE84008B6828 /* DetailsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		3D4F624D2C26D2C0008B6828 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D4F62502C26D2C0008B6828 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3D4F62572C26DD2D008B6828 /* FavoriteModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteModel.swift; sourceTree = "<group>"; };
+		3D4F625B2C26EE84008B6828 /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 				3D4F62492C26D2BE008B6828 /* FavTubeApp.swift */,
 				3D4F62572C26DD2D008B6828 /* FavoriteModel.swift */,
 				3D4F624B2C26D2BE008B6828 /* ContentView.swift */,
+				3D4F625B2C26EE84008B6828 /* DetailsView.swift */,
 				3D4F624D2C26D2C0008B6828 /* Assets.xcassets */,
 				3D4F624F2C26D2C0008B6828 /* Preview Content */,
 			);
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D4F62582C26DD2D008B6828 /* FavoriteModel.swift in Sources */,
+				3D4F625C2C26EE84008B6828 /* DetailsView.swift in Sources */,
 				3D4F624C2C26D2BE008B6828 /* ContentView.swift in Sources */,
 				3D4F624A2C26D2BE008B6828 /* FavTubeApp.swift in Sources */,
 			);
@@ -276,6 +280,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"FavTube/Preview Content\"";
+				DEVELOPMENT_TEAM = HPD2675JMR;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -304,6 +309,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"FavTube/Preview Content\"";
+				DEVELOPMENT_TEAM = HPD2675JMR;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
